@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-3 text-white text-lg rounded bg-[#c300ff] focus:bg-violet-300 hover:bg-violet-300 px-6 font-extrabold col-span-1;
+  }
+}
